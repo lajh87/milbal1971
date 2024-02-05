@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Military Balance 1971"
+  author: "IISS"
+  date: "1971"
+  chapters:
+    - index.qmd
+    - 04-the_united_states_and_the_soviet_union.qmd
+    - 05-the_european_balance.qmd
+    - 06-the_middle_east_and_the_mediterranean.qmd
+    - 07-sub-saharan_africa.qmd
+    - 08-asia_and_australasia.qmd
+    - 09-tables.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
